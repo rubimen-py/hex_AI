@@ -8,4 +8,4 @@ Los integrantes del proyecto hex IA son:
 
 Laura María Carmona Gonzalez
 Cristian Ricardo Velasquez Cantor 
-David Felipe Rubio Méndez
+David Felipe Rubio Méndez.
