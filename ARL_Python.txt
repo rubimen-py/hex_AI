@@ -1,0 +1,66 @@
+Chapter 1: Introducción al aprendizaje reforzado. 
+
+ Un agente puede familiarizarse con una amplia gama de tareas asumiendo que los problemas
+ se pueden modelar con un entorno de trabajo (Framework) que contenga acciones, un ambiente,
+ un agente. 
+
+ No es solamente un algoritmo prediciendo un target, si no también es manipular un agente
+ en un ambiente, donde ese agente tiene un conjunto de acciones que puede escoger para 
+ lograr una meta/recompensa.
+
+Historia de aprendizaje reforzado. 
+ 
+  RL es una rama del control óptimo, donde se describe un problema donde se intenta
+  lograr un cierto criterio "óptimo" y que leyes  de "control" se necesitan para lograr 
+  este fin, tipicamente se define un control óptimo como un conjunto de ecuaciones
+  diferenciales.
+ 
+      Markov Decision processes (MDPs) y su relación con el RL
+ 
+      MDPs es un proceso de control estocástico discreto, están especificamente diseñadas
+      para situaciones en cuales las salidas son parcialmente afectadas por los participantes
+      en el proceso pero el proceso también muestra algún grado de aleatorización también.
+      
+      MDPs y la programación dinámica se vuelven la base de la teoría del aprendizaje reforzado.
+      
+      Se asume basado a la propiedad de Markov que el futuro es independiente del pasado dado el
+      presente, esto quiere decir que el estado actual es la única pieza de información que 
+      será relevante y la infomación pasada no será mas necesaria.
+      
+      En este caso considermos tuplas de la forma (S,P) en el espacio de estados (state) donde
+      los estados cambian mediante una función de transición P 
+      
+      P define una distribución de probabilidad donde la distribución esta definida en todos los
+      posibles estados que el agente puede estar. 
+      
+      Finalmente, tenemos una recompensa que recibimos de movernos de un estado a otro, donde
+      se define matemáticamente como el valor esperado de una función de recompensa (R), y gamma 
+      una factor de descuento. 
+      
+      para definir un proceso de recompensa de markov (MRP) como la tupla (S,P,R,gamma)
+      
+      Otro componente en el desarrollo del aprendizaje reforzado era el aprendiza por
+      ensayo y error.
+  
+Algoritmos del RL y RL frameworks.
+  
+  Rl es análogomante es muy similar al  dominio del aprendizaje supervizado del machine 
+  learning, aunque hay diferencias importantes:
+     
+     En el aprendizaje supervizado tenemos una respuesta donde entrenamos un modelo para
+     predecir correctamente, sea una categoría o un valor en particular basado en los
+     features de unas observaciones. 
+     
+     los features son análogos a los vectores en un estado dado dentro un ambiente,
+     con el cual alimentamos al algoritmo de RL, tipicamente como una serie de estados
+     o individualmente de un estado a otro. 
+     
+   La diferencia mas importante es que no necesariamente tenemos una respuesta para
+   resolver un problema particular, existen multiples forma por el cual un algoritmo de
+   RL puede resolver un problema. En esta instancia, se quiere  escoger la respuesta 
+   que resuelva el problema de la manera mas eficiente posible, en este
+   aspecto es donde la escogencia del modelo se vuelve crítica. 
+   
+   
+     
+  
