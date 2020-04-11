@@ -61,6 +61,76 @@ Algoritmos del RL y RL frameworks.
    que resuelva el problema de la manera mas eficiente posible, en este
    aspecto es donde la escogencia del modelo se vuelve crítica. 
    
+   Se discutirá el rl framework OpenAI Gym y como interactua con diferentes frameworks
+   de Deep Learning
    
-     
+   Q Learning
+   
+   Q Learning está caracterizado por el hecho de que hay algún policia el cual informa
+   a un agente de las acciones que debe tomar en diferentes escenarios, como no requiere
+   un modelo, podemos usar uno y es especificamente a menudo aplicado a procesos decision 
+   markovianos finitos
+   
+   
+    Inicializar Q-table -> Escoger una acción -> realizar una acción -> medir la recompensa -> actualizar Q-table -> Escoger una acción... 
+    
+#############################################################################  
+Chapter 2: Algortimos del aprendizaje reforzado 
+    
+      Open AI gym
+          
+          las bases del gym es el ambiente, se tratará el problema del 
+          cart pole, que trata acerca de mantener el palo balanceado en el carro,
+          recibiremos una unidad de recompensa por cada recuadro (frame) en el cual
+          el palo está en posición vertical, el juego se pierde si el palo no vuelve
+          a estar vertical en ningún recuadro.
+          
+          Se enforcará en los metodos que realizaron para resolver este problema, enfatizando 
+          en el uso de metodos del grandiente (policy gradient methods)
+          
+       Policy-Based Learning
+          
+          Policy-based gradient methods se enfocan en optimizar la función regla
+          directamente mas que intentar aprender de una función que producirá
+          información en las recompensas esperadas dado un estado.
+          
+          *Deterministicos: es una regla que mapea un estado dado con una acción
+          especificamente en donde las acciones tomadas determinan cual será el 
+          resultado, por ejemplo: si estoy escribiendo en el teclado, estoy 
+          seguro que si oprimo la tecla "y" aparecerá el caracter y en la pantalla
+          
+          *Estocastico: una regla que produce una distribución de probabilidad sobre
+          un conjunto de acciones, como que existe una probabilidad de que la acción
+          tomada no sea la acción que en verdad ocurre.
+          
+          
+          Diferencias entre Policy-based methods y value-function method: 
+             
+             1. PGM Tienden a converger en mejores soluciones que VFM por que
+             en PGM estamos buscando acciones que minimicen la función de error
+             en contraste en los VFM se obtiene un amplio y no intuitivo rangos
+             de valores de acciones de minima diferencia* 
+             
+             2. PGM se adaptan en el aprendizaje de procesos estocásticos mientras
+             los VFM no.
+             
+             los VFM requieren unos ambientes explicitos definidos donde las acciones
+             dentro de estos ambientes produzcan salidas especificas que deben ser 
+             deterministicas
+             
+             3. PGM son mas efectivos en espacios de alta dimensión, ya que son 
+             menos caros computacionalmente hablando, VFM se requiere calcular
+             un valor por cada posible accion.
+             
+             
+             Aplicación de PGM al cart pole problem.
+             
+             
+             
+            
+       
+       
+          
+          
+          
   
