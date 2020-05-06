@@ -6,12 +6,7 @@ desarrollar un agente que pueda jugar la hex al tiempo que va aprendiendo en cad
 
 Los integrantes del proyecto hex IA son:
 
-Laura María Carmona Gonzalez
-Cristian Ricardo Velasquez Cantor 
+Laura María Carmona Gonzalez,
+Cristian Ricardo Velasquez Cantor ,
 David Felipe Rubio Méndez.
-
-
-david te amooooo
-Buuuu presente el gordo
-
 
