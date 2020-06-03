@@ -298,6 +298,7 @@ while not game_over:
 
 # In[ ]:
 
+## tomado de https://github.com/KeithGalli/Connect4-Python
 
 
 
