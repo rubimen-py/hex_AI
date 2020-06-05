@@ -12,10 +12,9 @@ El hex es un juego entre dos o cuatro jugadores que van colocando por turnos fic
 Los juegos de computadora son uno de los dominios más desafiantes en inteligencia atificilal. Desde el comienzo de la computadora investigadores han propuesto diferentes herramientas y métodos para resolver este tipo de problemas.  Minimax, Alpha-Beta Minimax y Aprendizaje por refuerzo son algunos de estos.\\
 
 Para este proyecto usaremos Aprendizaje por refuerzo que entra en la rama de Machine Learning, más especificamente el deep learnign al hacer uso de redes neuronales 
-  
 
+## Aprendizaje por refuerzo en Hex
 
-##Aprendizaje por refuerzo en Hex
 
 
 Los integrantes del proyecto hex IA son:
